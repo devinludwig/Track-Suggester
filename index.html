@@ -18,13 +18,16 @@
           <h1>Course Track Suggester</h1>
         </div>
       </div class="row">
-
       <h2>Fill out this form and find out which course track at Epicodus will suit you best:</h2>
 
       <form id="inputs">
         <div class="form-group">
            <label for="name">Name:</label>
            <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
         </div>
         <label for="size">Would you be more interested in working for a small startup company or a large corporate enterprise?
         </label>
@@ -54,16 +57,16 @@
       </form>
 
       <div id="match">
-        <h2>Thanks <span id="nameinput"></span> for taking the time to fill out my form. The Epicodus course track that best suits you is:
+        <h2>Thanks <span id="nameinput"></span> for taking the time to fill out my form. Now I know that you were born on <span id="dob"></span>! The Epicodus course track that best suits you is:
         </h2>
         <div class='track' id="ruby">
           <p>Ruby</p>
         </div>
         <div class='track' id="java">
-          <p>Java<span class="or">, or perhaps</span></p>
+          <p>Java<span class="or">... or perhaps</span></p>
         </div>
         <div class='track' id="php">
-          <p>PHP<span class="or">, or perhaps</span></p>
+          <p>PHP<span class="or">... or perhaps</span></p>
         </div>
         <div class='track' id="csharp">
           <p>C#</p>

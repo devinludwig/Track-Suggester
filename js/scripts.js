@@ -9,8 +9,10 @@ $(document).ready(function() {
     var free = $('#free').val();
     var user = $('#user').val();
     var nameInput = $("input#name").val();
+    var dob = $("input#born").val();
 
     $("#nameinput").text(nameInput);
+    $("#dob").text(dob);
 
     if (size === 'large' && variety === 'one' && free === 'company') {
       $('#match').fadeIn();
