@@ -12,7 +12,7 @@ $(document).ready(function() {
     $("#nameinput").text(nameInput);
 
     if (size === 'large' && variety === 'one' && free === 'company') {
-      $('#match').show();
+      $('#match').fadeIn();
        $("#java").show();
     }
 

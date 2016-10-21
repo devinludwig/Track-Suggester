@@ -15,16 +15,41 @@ img {
   display: none;
 }
 
-p {
-  font-family: varela-round;
+#ruby {
+  background-image: url("../img/ruby.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 600px;
+}
+
+#java {
+  background-image: url("../img/java.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 600px;
+}
+
+#java {
+  background-image: url("../img/php.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 600px;
+}
+
+h2 {
+  font-family: "Varela Round";
   font-size: 40px;
-  color: white;
+}
+
+p {
+  font-family: "Varela Round";
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
 }
 
 #match {
   padding-top: 30px;
-  background-image: url("../img/ruby.jpg");
-  background-size: 100%;
 }
 
 #epicodus {
