@@ -1,0 +1,45 @@
+h1 {
+  font-family: "Varela Round";
+  font-size: 55px;
+  padding-top: 68px;
+  padding-bottom: 65px;
+  color: #00B3B4;
+}
+
+img {
+  float: right;
+  width: 30%;
+}
+
+#match, #ruby, #java, #php, #csharp {
+  display: none;
+}
+
+p {
+  font-family: varela-round;
+  font-size: 40px;
+  color: white;
+}
+
+#match {
+  padding-top: 30px;
+  background-image: url("../img/ruby.jpg");
+  background-size: 100%;
+}
+
+#epicodus {
+  float: left;
+  width: 360px;
+  padding: 20px;
+}
+
+button {
+  font-family: "Varela Round";
+  width: 100%;
+  font-size: 30px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #00B3B4;
+  color: white;
+}

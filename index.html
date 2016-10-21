@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <title>Track Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img id="epicodus" src="img/epicodus.png" alt="image of epicodus logo">
+        </div>
+        <div class="col-lg-8">
+          <h1>Course Track Suggester</h1>
+        </div>
+      </div class="row">
+      <h2>Fill out this form and find out which course track at Epicodus will suit you best:</h2>
+
+      <form id="inputs">
+        <div class="form-group">
+           <label for="name">Name:</label>
+           <input id="name" class="form-control" type="text">
+        </div>
+
+        <label for="size">Would you be more interested in working for a small startup company or a large corporate enterprise?
+        </label>
+        <select id="size">
+          <option value="small">Small startup</option>
+          <option value="large">Large enterprise</option>
+        </select>
+        <label for="variety">Would you like to do ongoing development for one company or work for an agency that does development for a variety of clients?
+        </label>
+        <select id="variety">
+          <option value="one">One company</option>
+          <option value="multiple">Multiple clients</option>
+        </select>
+        <label for="free">Would you rather make your own schedule as a freelance developer or have a salary and benefits at a company?
+        </label>
+        <select id="free">
+          <option value="freelance">Freelancer</option>
+          <option value="company">Company</option>
+        </select>
+
+        <button type="submit" class="btn-block">Show me my Epicodus course track match!</button>
+      </form>
+
+      <div id="match">
+        <p>Thank you <span id="nameinput"></span> for taking the time to fill out my form. The Epicodus course track that best suits you is:
+        </p>
+        <div id="tracks">
+          <div id="ruby">
+            <p>Ruby</p>
+          </div>
+          <div id="java">
+            <p>Java</p>
+            <img src="img/java.jpg" alt="image of java icon">
+          </div>
+          <div id="php">
+            <p>PHP</p>
+            <img src="img/php.jpg" alt="image of php icon">
+          </div>
+          <div id="csharp">
+            <p>C#</p>
+            <img src="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
