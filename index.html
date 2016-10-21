@@ -11,13 +11,14 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-xl-4">
           <img id="epicodus" src="img/epicodus.png" alt="image of epicodus logo">
         </div>
-        <div class="col-lg-8">
+        <div class="col-xl-8">
           <h1>Course Track Suggester</h1>
         </div>
       </div class="row">
+
       <h2>Fill out this form and find out which course track at Epicodus will suit you best:</h2>
 
       <form id="inputs">
@@ -25,7 +26,6 @@
            <label for="name">Name:</label>
            <input id="name" class="form-control" type="text">
         </div>
-
         <label for="size">Would you be more interested in working for a small startup company or a large corporate enterprise?
         </label>
         <select id="size">
@@ -44,26 +44,32 @@
           <option value="freelance">Freelancer</option>
           <option value="company">Company</option>
         </select>
-
+        <label for="user">Are you more interested in complex data processing or user experiences?
+        </label>
+        <select id="user">
+          <option value="data">Data processing</option>
+          <option value="exp">User experiences</option>
+        </select>
         <button type="submit" class="btn-block">Show me my Epicodus course track match!</button>
       </form>
 
       <div id="match">
         <h2>Thanks <span id="nameinput"></span> for taking the time to fill out my form. The Epicodus course track that best suits you is:
         </h2>
-        <div id="tracks">
-          <div id="ruby">
-            <p>Ruby</p>
-          </div>
-          <div id="java">
-            <p>Java</p>
-          </div>
-          <div id="php">
-            <p>PHP</p>
-          </div>
-          <div id="csharp">
-            <p>C#</p>
-          </div>
+        <div class='track' id="ruby">
+          <p>Ruby</p>
+        </div>
+        <div class='track' id="java">
+          <p>Java<span class="or">, or perhaps</span></p>
+        </div>
+        <div class='track' id="php">
+          <p>PHP<span class="or">, or perhaps</span></p>
+        </div>
+        <div class='track' id="csharp">
+          <p>C#</p>
+        </div>
+        <div class='track' id="design">
+          <p>Design</p>
         </div>
       </div>
     </div>

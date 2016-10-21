@@ -6,57 +6,76 @@ h1 {
   color: #00B3B4;
 }
 
+.col-xl-4 {
+  float: left;
+}
+
+#epicodus {
+  width: 360px;
+  padding: 20px;
+}
+
 img {
   float: right;
   width: 30%;
 }
 
-#match, #ruby, #java, #php, #csharp {
+select {
+  float: right;
+}
+
+#match, #ruby, #java, #php, #csharp, .or {
   display: none;
-}
-
-#ruby {
-  background-image: url("../img/ruby.jpg");
-  background-size: 100%;
-  background-position: center;
-  height: 600px;
-}
-
-#java {
-  background-image: url("../img/java.jpg");
-  background-size: 100%;
-  background-position: center;
-  height: 600px;
-}
-
-#java {
-  background-image: url("../img/php.jpg");
-  background-size: 100%;
-  background-position: center;
-  height: 600px;
-}
-
-h2 {
-  font-family: "Varela Round";
-  font-size: 40px;
-}
-
-p {
-  font-family: "Varela Round";
-  font-size: 30px;
-  text-align: center;
-  padding: 40px;
 }
 
 #match {
   padding-top: 30px;
 }
 
-#epicodus {
-  float: left;
-  width: 360px;
-  padding: 20px;
+.track {
+background-size: 100%;
+background-position: center;
+width: 400px;
+display: block;
+margin: auto;
 }
+
+#ruby {
+  background-image: url("../img/ruby.jpg");
+}
+
+#java {
+  background-image: url("../img/java.jpg");
+}
+
+#php {
+  background-image: url("../img/php.jpg");
+}
+
+#csharp {
+  background-image: url("../img/csharp.jpg");
+}
+
+#design {
+  background-image: url("../img/design.png");
+}
+
+h2 {
+  font-family: "Varela Round";
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-family: "Varela Round";
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 10px;
+  padding-bottom: 180px;
+  color: black;
+  text-shadow: white 1px 1px;
+}
+
 
 button {
   font-family: "Varela Round";
