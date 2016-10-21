@@ -12,7 +12,7 @@ _This page will accept form inputs from the user for their name along with prefe
 
 * _Clone git repository_
 * _Navigate to index.html in the "tracks" directory and open in your browser of choice_
-* _You may also view it on Github Pages at ""_
+* _You may also view it on Github Pages at "https://devinludwig.github.io/Track-Suggester/"_
 
 
 ## Support and contact details
